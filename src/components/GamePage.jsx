@@ -1,4 +1,5 @@
 import ButtonGroup from "./ButtonGroup";
+import dices from './images/dice_1.png';
 
 function GamePage(){
     return (
@@ -19,7 +20,7 @@ function GamePage(){
         </div>
         <div className="d-flex justify-content-center" style={{width : "100%"}}>
             <div>
-            <img src={dice}/>
+            <img src={dices}/>
             </div>
         </div>
     </>

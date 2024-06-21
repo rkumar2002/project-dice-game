@@ -1,9 +1,9 @@
 // import '../index.css';
 
-function Button(){
+function Button(props){
   return (
     <>
-        <button className="bt">Play Now</button>
+        <button className={`bt ${props.hoverStyle}`}>{props.desc}</button>
     </>
   );
 }

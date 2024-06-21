@@ -12,7 +12,7 @@ function Home(){
         <div className='ms-5'>
             <div className='d-flex flex-column h-inner'>
                 <h1 style={{fontSize : "96px", fontFamily : "sans-serif", fontWeight : "bolder"}}>DICE GAME</h1>
-                <div className="right"><Button/></div>
+                <div className="right"><Button desc="Play Now" hoverStyle="bt-b"/></div>
             </div>
         </div>
         </div>

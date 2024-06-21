@@ -5,13 +5,30 @@
 }
 
 .bt{
-   border: none;
+   border: 2px solid black;
    width: 220px;
    height: 44px;
    border-radius: 5px;
    padding: 10px 18px 10px 18px;
-   background-color: black;
-   color: white; 
+}
+
+.bt-b{
+    background-color: black;
+    color: white; 
+}
+.bt-b:hover{
+    background-color: white;
+    color:black;
+}
+
+.bt-w{
+    background-color: white;
+    color:black;
+}
+
+.bt-w:hover{
+    background-color: black;
+    color: white;
 }
 
 #home-pic{
