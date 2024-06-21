@@ -1,6 +1,5 @@
 import Button from './Button';
 import dice from './images/dice.png';
-import '../index.css';
 
 function Home(){
     return(

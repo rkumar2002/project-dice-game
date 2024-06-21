@@ -40,7 +40,7 @@ function GamePage(){
                 <p>If your guess is wrong then 1 point will be dedcuted</p>
             </div>
         </div>
-        <Button desc="Go back" hoverStyle="bt-b"/>
+        <Button desc="Go back" hoverStyle="bt-b" position="down"/>
     </>
   )
 }
