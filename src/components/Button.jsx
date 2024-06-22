@@ -12,7 +12,7 @@ function Button(props){
     );
   }
  
-  return <button className={`bt ${props.hoverStyle}`}>{props.desc}</button>;
+  return <button className={`bt ${props.hoverStyle}`} onClick={props.onClick}>{props.desc}</button>;
   
 }
 
