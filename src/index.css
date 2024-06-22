@@ -58,13 +58,13 @@
     background-color: black !important;
     color: white;
 }
-.rules{
+#rules{
     background: #FBF1F1;
     display : none;
 }
-.rules p{
+#rules p{
     margin-bottom: 8px;
-   font-size : small; 
+    font-size : small; 
 }
 .down{
     position: absolute;
